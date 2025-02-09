@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="viagens.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="viagens.js"></script>
+    <title>Viagens</title>    
+</head>
+<body>
+     <nav class="navbar navbar-expand-lg bg-body-tertiary" class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+      <img src="../wD Viagens/image/logo02.jpg" class="img-thumbnail" alt="logo" width="85"> 
+        <div class="container-fluid">          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" href="quemsomos.html">Quem Somos</a>
+              <a class="nav-link active" href="Viagens.html">Viagens</a>
+              <a class="nav-link active" href="Contato.html">Fale Conosco</a>
+            </div>          
+          </div>    
+              </div>    
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <button class="btn btn-primary me-md-2 m-2" type="button"><a class="nav-link active" href="Cadastro.html" >Cadastro</a></button>
+          <button class="btn btn-primary m-2" type="button"><a class="nav-link active" href="Login.html">Login</a></button>
+          </div>
+      </nav>
+     <br> <h1><span  class="badge text-bg-light">Viagens Nacionais</span></h1> <br>
+     <div class="row row-cols-1 row-cols-md-4 g-5">
+      <div class="col">    
+        <div class="card-group">
+        <div class="card" style="width: 18rem;">
+      <img src="../wD Viagens/image/Floripa (1).jpg " class="card-img-top"  alt="florianopolis">
+      <div class="card-body">
+        <h5 class="card-title">Florianópolis</h5>
+        <p class="card-text">Florianópolis é um destino perfeito para quem busca belas praias, natureza, cultura e diversão. <span id="pontos">...</span><span id="mais">Com mais de 40 praias paradisíacas, trilhas incríveis e uma gastronomia rica em frutos do mar, a cidade combina lazer e aventura. Além disso, tem uma vida noturna animada, um clima agradável e uma atmosfera acolhedora. Seja para relaxar ou explorar, Floripa é uma excelente escolha para uma viagem inesquecível!</span></p>
+        <button onclick="LeiaMais()" id="btnLeiaMais">Leia Mais</button>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"><p>De: <s> 1.100,00</s> Por: 950,00</p></li>
+      </ul>
+      <div class="card-body">
+        <a href="Contato.html" class="card-link">Mais Informações</a>
+      </div>
+      </div>
+      </div>
+        </div>
+      </div>
+        <div class="col">    
+        <div class="card-group">
+      <div class="card" style="width: 18rem;">
+        <img src="../wD Viagens/image/Rio (1).jpg " class="card-img-top" alt="rio de janeiro" >
+        <div class="card-body">
+          <h5 class="card-title">Rio de janeiro</h5>
+          <p class="card-text">O Rio de Janeiro é um destino imperdível por suas paisagens deslumbrantes, cultura vibrante e <span id="pontos2">...</span><span id="mais2">atrações icônicas. A cidade combina praias famosas, como Copacabana e Ipanema, com pontos turísticos mundialmente conhecidos, como o Cristo Redentor e o Pão de Açúcar. Além disso, tem uma vida cultural rica, com samba, carnaval e uma gastronomia diversificada. Seja para curtir a natureza, explorar a história ou aproveitar a animação carioca, o Rio oferece experiências únicas e inesquecíveis!.</span></p>
+          <button onclick="LeiaMais2()" id="btnLeiaMais2">Leia Mais</button>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><p>De:<s> 1.000,00</s> Por: 780,00</p></li>
+        </ul>
+        <div class="card-body">
+          <a href="Contato.html" class="card-link">Mais Informações</a>
+        </div>
+        </div>
+        </div> 
+        </div>
+        </div>
+        <div class="col">    
+          <div class="card-group">   
+      <div class="card" style="width: 18rem;">
+        <img src="../wD Viagens//image/Porto (1).jpg " class="card-img-top" alt="Porto de galinhas" >
+        <div class="card-body">
+          <h5 class="card-title">Porto de Galinhas</h5>
+          <p class="card-text">Porto de Galinhas é um destino incrível por suas praias paradisíacas, piscinas naturais de águas <span id="pontos3">...</span><span id="mais3"> cristalinas e rica vida marinha.Localizado em Pernambuco, o lugar oferece passeios de jangada, mergulho com peixes coloridos e paisagens deslumbrantes. Além disso, tem uma vila charmosa, com ótima gastronomia e artesanato local. Perfeito para quem busca relaxamento, aventura e contato com a natureza em um dos cenários mais bonitos do Brasil!</span></p>
+          <button onclick="LeiaMais3()" id="btnLeiaMais3">Leia Mais</button>
+           <ul class="list-group list-group-flush">
+          <li class="list-group-item"><p>De:<s> 3.000,00</s> Por: 2.500,00</p></li>
+           </ul>
+              <div class="card-body">
+          <a href="Contato.html" class="card-link">Mais Informações</a>
+        </div>
+        </div>
+      </div>
+          </div>
+        </div>
+        <div class="col">    
+          <div class="card-group">
+         <div class="card" style="width: 18rem;">
+          <img src="../wD Viagens/image/Gramado (1).jpg" class="card-img-top" alt="Gramado" >
+          <div class="card-body">
+            <h5 class="card-title">Gramado</h5>
+            <p class="card-text">Gramado é um destino encantador, perfeito para quem busca uma experiência diferente no Brasil.<span id="pontos4">...</span><span id="mais4"> cidade tem um clima europeu, com arquitetura charmosa, gastronomia deliciosa e atrações temáticas como o Natal Luz, Snowland e o Lago Negro. Além disso, oferece passeios românticos, vinícolas próximas e um ambiente acolhedor durante o inverno e o ano todo. Seja para curtir o frio, degustar chocolates e vinhos ou explorar suas belezas naturais, Gramado é um lugar inesquecível!</span></p>
+          <button onclick="LeiaMais4()" id="btnLeiaMais4">Leia Mais</button>
+                 <ul class="list-group list-group-flush">
+            <li class="list-group-item"><p>De:<s> 2.900,00</s> Por: 2.399,00</p></li>
+                 </ul>     
+          <div class="card-body">
+            <a href="Contato.html" class="card-link">Mais Informações</a>          
+          </div>
+          </div>
+          </div>
+          </div>
+        </div>
+     </div>
+     </div>
+          <br> <h1><span  class="badge text-bg-light">Viagens Internacionais</span></h1> <br>  
+          <div class="row row-cols-1 row-cols-md-4 g-5">
+              <div class="col">    
+              <div class="card-group">
+              <div class="card" style="width: 18rem;">
+            <img src="../wD Viagens/image/paris.jpg" class="card-img-top"  alt="paris">
+            <div class="card-body">
+              <h5 class="card-title">Paris</h5>
+              <p class="card-text">Paris é um destino encantador, conhecido como a Cidade Luz e símbolo do romance, da arte e da<span id="pontos5">...</span><span id="mais5">cultura. Com pontos icônicos como a Torre Eiffel, o Arco do Triunfo e a Catedral de Notre-Dame, a cidade oferece uma atmosfera única, repleta de história e arquitetura deslumbrante. O Museu do Louvre e o Musée d'Orsay são paradas obrigatórias para os amantes da arte. Além disso, Paris é um paraíso gastronômico, com cafés charmosos, boulangeries e restaurantes renomados. Caminhar pelas margens do Rio Sena, explorar bairros boêmios como Montmartre e vivenciar o charme parisiense tornam a viagem inesquecível.</span></p>
+              <button onclick="LeiaMais5()" id="btnLeiaMais5">Leia Mais</button>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><p>De: <s> 5.100,00</s> Por: 4.799,00</p></li>
+            </ul>
+            <div class="card-body">
+              <a href="Contato.html" class="card-link">Mais Informações</a>
+            </div>
+            </div>
+            </div>
+              </div>
+            </div>
+              <div class="col"> 
+            <div class="card-group">
+              <div class="card" style="width: 18rem;">
+              <img src="../wD Viagens/image/irlanda.jpg" class="card-img-top" alt="irlanda" >
+              <div class="card-body">
+                <h5 class="card-title">Irlanda</h5>
+                <p class="card-text">A Irlanda é um destino fascinante que combina paisagens naturais deslumbrantes, rica herança<span id="pontos6">...</span><span id="mais6">cultural e uma atmosfera acolhedora. O país é famoso por seus campos verdes, falésias impressionantes, como as de Moher, e castelos históricos que contam séculos de história. Cidades vibrantes como Dublin oferecem uma mistura de modernidade e tradição, com pubs animados, música ao vivo e uma cena cultural efervescente. Além disso, a hospitalidade do povo irlandês, a gastronomia local e a oportunidade de explorar a mitologia celta e lendas locais tornam a viagem inesquecível. É o lugar ideal para quem busca aventuras, cultura e belas paisagens.</span></p>
+                <button onclick="LeiaMais6()" id="btnLeiaMais6">Leia Mais</button>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><p>De:<s> 3.600,00</s> Por: 3.099,00</p></li>
+              </ul>
+              <div class="card-body">
+                <a href="Contato.html" class="card-link">Mais Informações</a>
+              </div>
+              </div>
+              </div>  
+              </div>
+              </div>
+              <div class="col">   
+              <div class="card-group">
+            <div class="card" style="width: 18rem;">
+              <img src="../wD Viagens/image/maldivas.jpg" class="card-img-top" alt="maldivas" >
+              <div class="card-body">
+                <h5 class="card-title">Maldivas</h5>
+                <p class="card-text">As Maldivas são um destino paradisíaco conhecido por suas águas cristalinas de azul-turquesa,<span id="pontos7">...</span><span id="mais7"> praias de areia branca e resorts luxuosos. O arquipélago oferece uma experiência única de contato com a natureza, ideal para quem busca relaxamento e tranquilidade. Além disso, é um local perfeito para atividades aquáticas, como mergulho, snorkel e esportes náuticos, com rica vida marinha e recifes de corais deslumbrantes. O pôr do sol espetacular, a gastronomia exótica e a hospitalidade local completam o cenário, tornando as Maldivas um destino dos sonhos para lua de mel, férias românticas ou momentos de puro descanso.</span></p>
+                <button onclick="LeiaMais7()" id="btnLeiaMais7">Leia Mais</button>
+                 <ul class="list-group list-group-flush">
+                <li class="list-group-item"><p>De:<s> 7.400,00</s> Por: 6.999,00</p></li>
+                 </ul>
+                    <div class="card-body">
+                <a href="Contato.html" class="card-link">Mais Informações</a>
+              </div>
+              </div>
+            </div>
+              </div>
+              </div>
+              <div class="col"> 
+                <div class="card-group">
+               <div class="card" style="width: 18rem;">
+                <img src="../wD Viagens/image/las vegas.jpg" class="card-img-top" alt="las vegas" >
+                <div class="card-body">
+                  <h5 class="card-title">Las Vegas</h5>
+                  <p class="card-text">Las Vegas é um destino vibrante conhecido por sua vida noturna animada, cassinos icônicos e <span id="pontos8">...</span><span id="mais8">espetáculos de classe mundial. A cidade oferece uma variedade de atrações para todos os gostos, desde shows de música, magia e performances do Cirque du Soleil até restaurantes premiados e bares sofisticados. Além da famosa Las Vegas Strip, é possível explorar belezas naturais próximas, como o Grand Canyon e o Red Rock Canyon. Com hotéis luxuosos, opções de entretenimento 24 horas e uma atmosfera única, Las Vegas é o lugar perfeito para quem busca diversão, aventura e experiências inesquecíveis.</span></p>
+                <button onclick="LeiaMais8()" id="btnLeiaMais8">Leia Mais</button>
+                       <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><p>De:<s> 5.200,00</s> Por: 4.699,00</p></li>
+                       </ul>     
+                <div class="card-body">
+                  <a href="Contato.html" class="card-link">Mais Informações</a>          
+                </div>
+                </div>
+                </div>
+                </div>
+            </div>
+          </div>
+          <br>
+          <br>
+          <br>
+          <br>
+          <p id="viagen">&copy; WD Viagens</p>
+</body>
+</html>

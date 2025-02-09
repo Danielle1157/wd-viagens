@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+#mais{display: none;}
+#mais2{display: none;}
+#mais3{display: none;}
+#mais4{display: none;}
+#mais5{display: none;}
+#mais6{display: none;}
+#mais7{display: none;}
+#mais8{display: none;}
+body{
+    background-color: #f8f7f7;
+    text-align: center;
+}
+#viagen{
+    font-size: 11px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    }
+ s{
+    color: red;
+ }   
+ .nav-link {
+    font-weight: bold;
+ }

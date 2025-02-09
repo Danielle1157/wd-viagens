@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body{
+    background-color: #f8f7f7;
+    text-align:justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+   }
+
+#viagens{
+ text-align: center;
+ font-weight: lighter;
+ font-size: 11px;
+ font-family: 'Times New Roman', Times, serif;
+}

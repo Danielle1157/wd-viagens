@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="contato.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Cadastro</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        <img src="../wD Viagens/image/logo02.jpg" class="img-thumbnail" alt="logo" width="85">
+              <div class="container-fluid">          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active"href="quemsomos.html">Quem Somos</a>
+              <a class="nav-link active" href="Viagens.html">Viagens</a>              
+              <a class="nav-link active" href="Contato.html">Fale Conosco</a>
+            </div>          
+          </div>    
+              </div>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button class="btn btn-primary me-md-2 m-2" type="button"><a class="nav-link active" href="Cadastro.html" >Cadastro</a></button>
+                <button class="btn btn-primary m-2" type="button"><a class="nav-link active" href="Login.html">Login</a></button>
+                </div>
+    </nav>
+   <br> <h1><span  class="badge text-bg-light">Cadastro</span></h1> <br>
+              <form class="row g-3">
+                <div class="col-md-3 m-2">
+                  <label for="validationDefault01" class="form-label">Primeiro Nome</label>
+                  <input type="text" class="form-control" id="validationDefault01"  required>
+                </div>
+                <div class="col-md-3 m-2">
+                  <label for="validationDefault02" class="form-label">Ultimo Nome</label>
+                  <input type="text" class="form-control" id="validationDefault02"  required>
+                </div>
+                <div class="col-md-3 m-2">
+                  <label for="validationDefaultCpf" class="form-label">CPF</label>
+                  <div class="input-group">
+                    <span class="input-group-text" id="inputGroupPrepend2">Nº:</span>
+                    <input type="text" class="form-control" id="validationDefaultCpf" aria-describedby="inputGroupPrepend2" required>
+                  </div>
+                </div>
+                <div class="col-md-2 m-2">
+                  <label for="validationDefaultTel" class="form-label">Telefone</label>
+                  <input type="text" class="form-control" id="validationDefaultTel"  required>
+                </div>
+                <div class="col-md-4 m-2">
+                  <label for="validationDefault03" class="form-label">Cidade</label>
+                  <input type="text" class="form-control" id="validationDefault03" required>
+                </div>
+                <div class="col-md-2 m-2">
+                  <label for="validationDefault04" class="form-label">Estado</label>
+                  <select class="form-select" id="validationDefault04" required>
+                    <option selected disabled > </option>
+                    <option>SP</option>
+                    <option>RJ</option>
+                    <option>SC</option>
+                    <option>PR</option>
+                    <option>CE</option>
+                    <option>PE</option>
+                    <option>MG</option>
+                    <option>AM</option>
+                    <option>BA</option>
+                    <option>MT</option>
+                    <option>PA</option>
+                  </select>
+                </div>
+                <div class="col-md-3 m-2">
+                  <label for="validationDefault05" class="form-label">CEP</label>
+                  <div class="input-group">
+                  <span class="input-group-text" id="inputGroupPrepend4">Nº:</span>
+                  <input type="text" class="form-control" id="validationDefault05" required>
+                </div>
+                </div>
+                <div class="col-md-5 m-2">
+                  <label for="validationDefaultEmail" class="form-label">Digite seu E-mail:</label>
+                  <input type="text" class="form-control" id="validationDefaultEmail"  required>
+                </div>
+                <div class="row g-3 align-items-center">
+                  <div class="col-md-3 m-2">
+                    <label for="validationDefaultSenha" class="form-label">Senha:</label>
+                    <input type="text" class="form-control" id="validationDefaultSenha"  required>
+                    <span id="passwordHelpInline" class="form-text">
+                      Deve conter de 8 a 20 caracteres.
+                    </span>
+                  </div>
+                </div>
+                <div class="col-12 m-2">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                    <label class="form-check-label" for="invalidCheck2">
+                      Concordo com o Termo e Condições
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12 m-2">
+                  <button class="btn btn-primary" type="submit">Enviar</button>
+                </div>
+              </form>
+              <br>
+              <br>
+              <br>
+              <p id="viagens">&copy; WD Viagens</p>              
+</body>
+</html>
